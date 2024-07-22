@@ -1,0 +1,54 @@
+body{
+  background-color: black;
+  color: aqua;
+}
+
+main{
+  max-width: 360px;
+  margin: 30 auto;
+}
+h1{
+  text-align:center ;
+  color: grey;
+  margin: 0;
+}
+form{
+  margin-top: 20px;
+}
+form input{
+  width: 100%;
+  background-color: transparent;
+  color: #ddd;
+  border: 2px solid;
+  border-radius: 5px;
+
+}
+form div.basic{
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+  ;
+}
+form button{
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  background-color: grey;
+}
+div.transactions{
+  margin-top: 5px;
+}
+div.transaction{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+div.transaction div.name{
+  font-size: 1.2rem;
+}
+div.transaction div.description{
+  font-size: .8rem;
+}
+ 
